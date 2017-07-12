@@ -41,6 +41,11 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
+  /*
+  *
+  */
+  double Steer();
 };
 
 #endif /* PID_H */
